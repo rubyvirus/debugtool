@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: sjopenapidebugtool
+
+server:
+  port: 8082

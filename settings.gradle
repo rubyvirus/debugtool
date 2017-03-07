@@ -1,0 +1,4 @@
+rootProject.name = 'sjopenapidebugtool'
+include 'server'
+include 'ui'
+

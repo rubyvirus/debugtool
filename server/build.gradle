@@ -1,0 +1,12 @@
+project(':server') {
+
+    apply plugin: 'org.springframework.boot'
+
+    dependencies {
+        compile project(':ui')
+        compile 'org.springframework.boot:spring-boot-starter-web:1.4.3.RELEASE'
+        compile('org.springframework.boot:spring-boot-starter-data-rest:1.4.3.RELEASE')
+        // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
+        compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.2'
+    }
+}
