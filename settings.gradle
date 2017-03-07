@@ -1,4 +1,4 @@
-rootProject.name = 'sjopenapidebugtool'
+rootProject.name = 'debugtool'
 include 'server'
 include 'ui'
 
